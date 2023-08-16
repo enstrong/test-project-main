@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="../css/calculator-ppi.css">
+   <title>calculator PPI</title>
+</head>
+<body class="body">
+   <div class="wrapper">
+      <div class="header">
+         <div class="container d-flex align-center justify-space-between header-content">
+            <a href="../index.html"><img src="../img/elq.png" class="header-logo"></a>
+            <nav class="main-header-nav">
+               <a href="../index.html">Главная</a>
+               <a href="../randomizer/randomizer.html">randomizer</a>
+               <a href="#">PPI calculator</a>
+            </nav>
+            <button class="burger">
+               <div class="burger-line"></div>
+               <div class="burger-line"></div>
+               <div class="burger-line"></div>
+            </button>
+         </div>
+      </div>
+      <div class="main">
+         <div class="container">
+            <div class="ppi-calculator-main">
+               <span class="calc-title">PPI calculator</span>
+               <div class="description">
+                  <p class="description-text"><a href="https://ru.wikipedia.org/wiki/Ppi" class="description-text" target="_blank">Что такое PPI...</a></p>
+               </div>
+               <!-- <div class="description">
+                  <p class="description-text">Калькулятор сам вычисляет ширину и высоту вашего экрана, вам осталось узнать диагональ экрана в дюймах</p>
+               </div> -->
+               <p class="from-to">Ширина экрана(в пикселях): <input type="number" class="width ppi-input"></p>
+               <p class="from-to">Высота экрана(в пикселях): <input type="number" class="height ppi-input"></p>
+               <p class="from-to">Диагональ экрана(в дюймах): <input type="number" class="inch ppi-input"></p>
+               <div class="result"><p class="result-text-ppi">᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ ᠌᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ ᠌</p></div> <br>
+               <button class="button button-ppi-calc">Посчитать</button> 
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container">
+            <div class="social-networks">
+               <p class="our-social-networks">Контакты:</p>
+               <div class="social-networks-img">
+                  <a href="https://twitter.com/enstrongxD" target="_blank"><img src="../img/twitter.svg" class="link"></a>
+                  <a href="https://t.me/enstrongo" target="_blank"><img src="../img/telegram.svg" class="link"></a>
+                  <a href="https://vk.com/enstrongo" target="_blank"><img src="../img/vk-icon.svg" class="link"></a>
+               </div>
+            </div>
+            <p class="made-by">© Made by enstrONGO</p>
+         </div>
+      </div>
+   </div>
+   <script src="../js/calculator-ppi.js"></script>
+   <script src="../js/burger.js"></script>
+</body>
+</html>
